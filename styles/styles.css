@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+/* :root {
+  --gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+  --gradient: linear-gradient(90deg, #667eea, #764ba2); 
+} */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  color: #fff;
+  background-color: #0f3443;
+
+  /* background-image: var(--gradient);
+  background-size: 400%;
+  animation: bg-animation 5s infinite alternate; */
+}
+
+/* Elementos como los circulos y los efectos blur del fondo */
+.blur-1,
+.blur-2 {
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(70px);
+  opacity: 0.2;
+}
+.blur-1 {
+  height: 450px;
+  width: 450px;
+  bottom: -200px;
+  left: -200px;
+  background-color: #34e89e;
+}
+.blur-2 {
+  height: 650px;
+  width: 650px;
+  top: 50%;
+  left: 50%;
+  transform: translate(20%, -50%);
+  background-color: #34e89e;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+.logo {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.ul-nav {
+  display: flex;
+}
+
+.header-a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 3rem;
+}
+
+img {
+  height: 350px;
+}
+header {
+  height: 15vh;
+}
+main {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+.container-main-box {
+  width: 65%;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  /* Glass efect */
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  /* -webkit-backdrop-filter: blur(10px); */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37); */
+}
+
+/* @keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+} */

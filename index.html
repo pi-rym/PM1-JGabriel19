@@ -64,19 +64,20 @@
       <section class="container-activities">
         <h2 class="title-categories">Mis Actividades Favoritas</h2>
         <div class="box-activities">
-          <label for="titulo"> Título: </label>
-          <input class="glass" type="text" id="titulo" name="nombre" required />
-          <label for="descripcion"> Descripción: </label>
+          <label for="title"> Título: </label>
+          <input class="glass" type="text" id="title" name="title" />
+          <label for="description"> Descripción: </label>
           <textarea
             class="glass"
-            name="descripcion"
-            id="descripcion"
+            name="description"
+            id="description"
           ></textarea>
-          <label for="url"> URL Imagen: </label>
-          <input class="glass" type="text" id="url" name="url" required />
-          <button type="submit">Agregar Actividad</button>
+          <label for="imgUrl"> URL Imagen: </label>
+          <input class="glass" type="text" id="imgUrl" name="imgUrl" />
+          <button id="btn-add" type="submit">Agregar Actividad</button>
         </div>
       </section>
+      <section class="container-cards-activities"></section>
     </main>
 
     <footer>

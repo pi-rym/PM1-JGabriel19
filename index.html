@@ -13,11 +13,15 @@
     <title>Mi Página Web</title>
   </head>
   <body>
-    <header class="container-header">
+    <header class="container-header" id="sobre_mi">
       <p class="logo-finn">FINN</p>
       <ul class="ul-nav">
-        <li class="li-nav"><a class="header-a" href="#">Inicio</a></li>
-        <li class="li-nav"><a class="header-a" href="#">About Me</a></li>
+        <li class="li-nav">
+          <a class="header-a" href="#sobre_mi">Inicio</a>
+        </li>
+        <li class="li-nav">
+          <a class="header-a" href="#tecnologias">Tecnologías</a>
+        </li>
       </ul>
     </header>
 
@@ -43,7 +47,7 @@
         <img class="img-perfil" src="img/perfil.jpg" alt="perfil" />
       </section>
 
-      <section class="container-favorites">
+      <section class="container-favorites" id="tecnologias">
         <h2 class="title-categories">Mis Tecnologías Favoritas</h2>
         <div class="container-cards glass">
           <div class="card-1 card">
@@ -74,7 +78,9 @@
           ></textarea>
           <label for="imgUrl"> URL Imagen: </label>
           <input class="glass" type="text" id="imgUrl" name="imgUrl" />
-          <button id="btn-add" type="submit">Agregar Actividad</button>
+          <button id="btn-add" type="submit">
+            <i class="bi bi-file-earmark-plus-fill"></i>Agregar Actividad
+          </button>
         </div>
       </section>
       <section class="container-cards-activities"></section>
@@ -83,17 +89,18 @@
     <footer>
       <div class="container-footer">
         <a
+          class="linkedin"
           href="https://www.linkedin.com/in/jose-gabriel-quispe-anyaipoma-270959229/"
           target="_blank"
           ><i class="bi bi-linkedin"></i
         ></a>
-        <a href="https://github.com/JGabriel19" target="_blank"
+        <a class="github" href="https://github.com/JGabriel19" target="_blank"
           ><i class="bi bi-github"></i
         ></a>
       </div>
       <p>&copy 2024 creado por Gabriel</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

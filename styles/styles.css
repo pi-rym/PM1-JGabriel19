@@ -1,24 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400&display=swap");
-/* :root {
-  --gradient: linear-gradient(
-    45deg,
-    #845ec2,
-    #d65db1,
-    #ff6f91,
-    #ff9671,
-    #ffc75f,
-    #f9f871
-  );
-  --gradient: linear-gradient(90deg, #667eea, #764ba2);
-} */
+
 body {
   position: relative;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
   background-color: #0f3443;
-  /* background-image: var(--gradient);
-  background-size: 400%;
-  animation: bg-animation 5s infinite alternate; */
 }
 
 /* Efecto glass */
@@ -438,12 +424,3 @@ footer {
     width: 100%;
   }
 }
-
-/* @keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-} */
